@@ -6,12 +6,32 @@
     <title>Html Form</title>
   </head>
   <body>
-    <form action="">
+    <h1>Sign up for Activities</h1>
+    <form action="http://google.com/">
       <label for="username">Username:</label>
-      <input id="username" type="text" />
+      <input id="username" type="text" name="email" />
       <br />
       <label for="password">Password:</label>
-      <input id="password" type="text" />
+      <input id="password" type="password" name="password" />
+      <br />
+      <label for="food">Preferred Food:</label>
+      <p><input type="checkbox" value="pilaff" /> Pilaff</p>
+      <p><input type="checkbox" value="kebab" /> Kebab</p>
+      <p><input type="checkbox" value="sushi" /> Sushi</p>
+      <hr />
+      <label for="pasttime">Favorite Pasttime:</label>
+      <p>
+        <input type="radio" name="pasttime" value="soccer" checked /> Soccer
+      </p>
+      <p><input type="radio" name="pasttime" value="jogging" /> Jogging</p>
+      <p><input type="radio" name="pasttime" value="reading" /> Reading</p>
+      <p>
+        <input type="radio" name="pasttime" value="" /> Other:
+        <input type="text" />
+      </p>
+      <br />
+      <input type="submit" />
+      <input type="reset" />
     </form>
   </body>
 </html>
