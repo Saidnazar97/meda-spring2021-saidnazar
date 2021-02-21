@@ -1,65 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/f5c9ef914a.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Saidnazar`s Portfolio Website</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html" class="active">Home</a>
-          </li>
-          <li>
-            <a href="./my_work.html">My Work</a>
-          </li>
-          <li>
-            <a href="./about.html">About Me</a>
-          </li>
-          <li style="float: right">
-            <a class="active" href="./contact.html" target="_blank">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img
-            src="./images/saidnazar.jpg"
-            alt="saidnazar profile picture"
-            width="200"
-            height="200"
-            style="border-radius: 50%"
-            class="profile-img"
-          />
-        </td>
-        <td>
-          <h1>Saidnazar Rakhimboev</h1>
+    <div class="header">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="./index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="./myproject.html">My Projects</a>
+            </li>
+            <li>
+              <a href="./aboutme.html">About Me</a>
+            </li>
+            <li style="float: right">
+              <a class="active" href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="row">
+      <div class="col-3 col-s-3 menu">
+        <img
+          src="./images/saidnazar.jpg"
+          alt="saidnazar profile picture"
+          width="200"
+          height="200"
+          style="border-radius: 50%"
+          class="profile-img"
+        />
+      </div>
+
+      <div class="col-6 col-s-9">
+        <h1>Saidnazar Rakhimboev</h1>
+        <p>
+          <em
+            >Student of
+            <strong
+              ><a href="https://medasf.org/future-latinos-technology/tech/">
+                The Meda Tech</a
+              ></strong
+            ></em
+          >
+        </p>
+        <p>
+          I am an Android and Web Developer. I
+          <i class="fas fa-heart"></i> green tea and brew my own coffee
+        </p>
+      </div>
+
+      <div class="col-3 col-s-12">
+        <div class="aside">
+          <h2>Experience</h2>
+          <p>I have more than a year.</p>
+          <h2>Languages</h2>
+          <p>English, Russian, Uzbek</p>
+          <h2>Interests</h2>
           <p>
-            <em
-              >Student of
-              <strong
-                ><a href="https://medasf.org/future-latinos-technology/tech/">
-                  The Meda Tech</a
-                ></strong
-              ></em
-            >
+            Web design, Web Development, Cybersecurity, and Mobile Development
           </p>
-          <p>
-            I am an Android and Web Developer. I
-            <i class="fas fa-heart"></i> green tea and brew my own coffee
-          </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+      </div>
+    </div>
+
     <hr />
 
     <h3>Work Experience</h3>
@@ -96,5 +110,11 @@
         <td>⭐️⭐️</td>
       </tr>
     </table>
+
+    <hr />
+
+    <div class="footer">
+      <p>&copy 2021 Saidnazar</p>
+    </div>
   </body>
 </html>

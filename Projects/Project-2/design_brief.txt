@@ -1,0 +1,32 @@
+Hello, 
+
+My website is regarding my portfolio including Home, My Projects, About Me and Contacts webpages.
+
+Colors that I am using background is whitesomke, navbar or header is purple, text-color is white.
+
+when it comes to my projects page, I am using various color, such as pink, green, orange, gray.
+
+Images are inside the images folder.
+
+A Section: HOME.
+Text content: My name, Work Experience, My Skills.
+
+MY PROJECTS.
+I have my four projects linked. And Description of projects there.
+
+ABOUT ME.
+ I have studied economics but have always been interested in web
+                development. I was 10 years old when I made my first web page
+                with HTML and CSS. While I was studying in the university I took
+                computer science as my minor subject and was introduced to
+                programming. During my studies I was an active member in student
+                associations and became responsible for all kinds of tasks and
+                projects including being a web master. That and my previous
+                interest in web development created a spark to turn my hobby
+                into a career. I took my first steps towards my new role in
+                January 2019.
+Links to other portfolio:
+< https://www.mockplus.com/blog/post/portfolio-design-websites >
+< https://webflow.com/blog/design-portfolio-examples >
+
+
