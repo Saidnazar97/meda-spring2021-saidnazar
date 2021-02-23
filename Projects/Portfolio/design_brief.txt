@@ -1,9 +1,0 @@
-Hello, 
-
-My website is regarding my portfolio including Home, My Projects, About Me and Contacts webpages.
-
-Colors that I am using background is whitesomke, navbar or header is purple, text-color is white.
-
-when it comes to my projects page, I am using various color, such as pink, green, orange, gray.
-
-Images are inside the images folder.
