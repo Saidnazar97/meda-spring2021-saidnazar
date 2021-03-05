@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Calculator</title>
+    <script src="jquery-3.5.1.min.js"></script>
+    <style>
+      #container {
+        /* width: 900px; */
+        /* height: 500px; */
+        background-color: darkgray;
+        margin: auto;
+        width: 70%;
+        border: 3px solid green;
+        padding: 10px;
+      }
+
+      #inputs {
+        display: flex;
+        background-color: darkseagreen;
+        height: 300px;
+        border-style: inset;
+        border-top-left-radius: 20px;
+      }
+
+      #inputs div {
+        flex-grow: 1;
+        flex-basis: 50%;
+      }
+
+      #results {
+        background-color: lightpink;
+        height: 200px;
+        border-style: inset;
+        border-bottom-right-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Budget Calculator</h1>
+      <div id="inputs">
+        <div>
+          <h2>Monthly Expenses</h2>
+          <form action="">
+            <label for="food">Food</label>
+            <input type="number" id="food" />
+            <br />
+            <label for="rent">Rent</label>
+            <input type="number" id="rent" />
+            <br />
+            <label for="util">Utilities</label>
+            <input type="number" id="util" />
+            <br />
+            <label for="internet">Internet</label>
+            <input type="number" id="internet" />
+            <br />
+            <label for="mobile">Mobile</label>
+            <input type="number" id="mobile" />
+            <br />
+            <label for="interest">Debt Interest</label>
+            <input type="number" id="interest" />
+            <br />
+            <label for="rainy-day">Rainy Day Fund</label>
+            <input type="number" id="rainy-day" />
+            <br />
+            <label for="hobby">Hobbies</label>
+            <input type="number" id="hobby" />
+            <br />
+            <label for="travel">Travel Fees</label>
+            <input type="number" id="travel" />
+            <br />
+            <label for="health">Health Insurance</label>
+            <input type="number" id="health" />
+            <br />
+            <input type="reset" />
+          </form>
+          <br />
+          <button id="submit">Calculate</button>
+        </div>
+        <div>
+          <h2>Monthly Income Sources</h2>
+          <label for="job">Day Job (Employee)</label>
+          <input type="number" id="job" />
+          <br />
+          <label for="gig">Side Gigs (Average)</label>
+          <input type="gig" id="gig" />
+          <br />
+          <label for="investments">Investments</label>
+          <input type="number" id="investments" />
+          <br />
+          <input type="reset" />
+        </div>
+      </div>
+
+      <div id="results">
+        <h2>Results</h2>
+        <p id="monthly"></p>
+        <p id="yearly"></p>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $('#submit').click(function () {
+          console.log('click');
+        });
+      });
+    </script>
+  </body>
+</html>
